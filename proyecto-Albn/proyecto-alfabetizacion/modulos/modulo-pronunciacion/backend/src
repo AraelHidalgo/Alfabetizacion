@@ -1,9 +1,0 @@
-// Controladores para el módulo de pronunciación
-
-exports.getPronunciacion = (req, res) => {
-    res.send("Obteniendo datos de pronunciación");
-};
-
-exports.createPronunciacion = (req, res) => {
-    res.send("Creando datos de pronunciación");
-};
