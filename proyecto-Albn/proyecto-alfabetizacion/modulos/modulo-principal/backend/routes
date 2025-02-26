@@ -1,0 +1,14 @@
+// Este archivo contiene las definiciones de las rutas de la API para el módulo principal. 
+// Se pueden agregar las rutas necesarias para manejar las solicitudes del servidor.
+
+import express from 'express';
+import { ejemploController } from '../controllers/ejemploController';
+
+const router = express.Router();
+
+// Definición de una ruta de ejemplo
+router.get('/ejemplo', ejemploController.obtenerEjemplo);
+
+// Otras rutas pueden ser definidas aquí
+
+export default router;

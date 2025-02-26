@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-alfabetizacion",
+  "version": "1.0.0",
+  "description": "Aplicación de alfabetización que incluye módulos de pronunciación y caligrafía.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./modulos/modulo-principal/backend/src/index.js",
+    "build": "cd ./modulos/modulo-principal/frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Tu Nombre",
+  "license": "ISC"
+}
