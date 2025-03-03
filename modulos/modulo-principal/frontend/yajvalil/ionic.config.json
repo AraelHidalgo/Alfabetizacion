@@ -1,0 +1,7 @@
+{
+  "name": "yajvalil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
